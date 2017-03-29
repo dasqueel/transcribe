@@ -1,3 +1,13 @@
+"""
+usage:
+
+getCapText(<videoId>, <name of txtfile>)
+
+example:
+
+getCapText("IX1cJLUpJQI", "screencast")
+"""
+
 import pysrt
 from subprocess import call
 import subprocess as sp
@@ -16,5 +26,3 @@ def getCapText(vidId, fileName):
 		os.remove(fileName+".en.srt")
 		text_file.write(subs.text)
 		print 'created '+fileName+".txt!"
-
-getCapText('wxiV4MFhJh8','progamming')
