@@ -3,5 +3,5 @@ scripts that transcribe various audio to text problems
 
 requirements:
 
-ffmpeg
+ffmpeg,
 youtube dl
