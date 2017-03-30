@@ -11,10 +11,10 @@ def getCapText(vidId, fileName):
 	call(cmd.split(), shell=False)
 
 	subs = pysrt.open(fileName+'.en.srt')
-	with open(fileName+".txt", "w") as text_file:
+	with open('txts/'+fileName+".txt", "w") as text_file:
 		os.remove(fileName+".en.vtt")
 		os.remove(fileName+".en.srt")
 		text_file.write(subs.text)
 		print 'created '+fileName+".txt!"
 
-getCapText('wxiV4MFhJh8','progamming')
+getCapText('PtH6zlSE_JU','cfb')
