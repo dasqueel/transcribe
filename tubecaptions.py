@@ -26,8 +26,3 @@ def getCapText(vidId, fileName):
 		os.remove(fileName+".en.srt")
 		text_file.write(subs.text)
 		print 'created '+fileName+".txt!"
-<<<<<<< HEAD
-
-getCapText('PtH6zlSE_JU','cfb')
-=======
->>>>>>> origin/master
