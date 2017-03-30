@@ -1,7 +1,6 @@
 # transcribe
 scripts that transcribe various audio to text problems
 
-requirements:
-
-ffmpeg,
+## requirements:
+ffmpeg
 youtube dl
